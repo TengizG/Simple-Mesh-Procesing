@@ -9,6 +9,8 @@ MainWindow::MainWindow(QWidget *parent)
     createActions();
     createMenus();
 
+    resize(600, 400);
+
 }
 
 void MainWindow::createActions()
